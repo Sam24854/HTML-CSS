@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 9</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+
+    .tweet{
+      width: 400px;
+      box-shadow: 0 0 6px rgb(94, 93, 93);
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 40px;
+    }
+
+    .tweet-pfp{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+
+    .tweet-box{
+      border: none;
+      font-size: 16px;
+      width: 250px;
+      outline: none;
+    }
+
+    .tweet-btn{
+      background-color: rgb(26, 170, 214);
+      color: white;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 120px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 15px;
+      padding-left: 15px;
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+
+    .tweet-btn:hover{
+      opacity: .8;
+    }
+
+    .tweet-btn:active{
+      opacity: .4;
+    }
+
+    .friend-img{
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+      object-position: center;
+      margin-bottom: 8px;
+    }
+
+    .friend{
+      width: 200px;
+      border: none;
+      box-shadow: 0 0 6px rgb(117, 116, 116);
+      margin-right: 10px;
+      display: inline-block;
+    }
+
+    .name{
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 8px;
+    }
+
+    .friend-count{
+      margin-top: 2px;
+      margin-bottom: 8px;
+      margin-left: 8px;
+    }
+
+    .add{
+      background-color: rgb(23, 127, 187);
+      color: white;
+      border: none;
+      margin-top: 0;
+      margin-bottom: 8px;
+      margin-left: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 12px;
+      padding-left: 12px;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .add:hover{
+      opacity: .8;
+    }
+
+    .add:active{
+      opacity: .4;
+    }
+  </style>
+</head>
+<body>
+  <div class="tweet">
+    <img class="tweet-pfp" src="/Exersises/Images/Cat.jpg" alt="">
+    <input class="tweet-box" type="text" placeholder="What's Happening?">
+    <button class="tweet-btn">Tweet</button>
+  </div>
+
+  <div class="friend">
+    <img class="friend-img" src="/Exersises/Images/Cat.jpg" alt="">
+    <p class="name">Oliver</p>
+    <p class="friend-count">2 mutual friends</p>
+    <button class="add">Add Friend</button>
+  </div>
+
+  <div class="friend">
+    <img class="friend-img" src="/Exersises/Images/2AE14CDD-1265-470C-9B15F49024186C10_source.webp" alt="">
+    <p class="name">Mimi</p>
+    <p class="friend-count">3 mutual friends</p>
+    <button class="add">Add Friend</button>
+  </div>
+
+  <div class="friend">
+    <img class="friend-img" src="/Exersises/Images/kitty-cat-kitten-pet-45201.jpeg" alt="">
+    <p class="name">Rex</p>
+    <p class="friend-count">4 mutual friends</p>
+    <button class="add">Add Friend</button>
+  </div>
+
+  <div class="multiple">
+
+  </div>
+</body>
+</html>

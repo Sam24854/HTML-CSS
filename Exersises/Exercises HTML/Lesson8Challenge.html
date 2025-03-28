@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 8 Challenge</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+
+    .name{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+      height: 20px;
+      width: 100px;
+      border-radius: 4px;
+      border-style: solid;
+      border-color: gray;
+      border-width: 1px;
+      margin-right: 2px;
+      margin-bottom: 8px;
+    }
+
+    .email{
+      display: block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+      height: 20px;
+      width: 228px;
+      border-radius: 4px;
+      border-style: solid;
+      border-color: gray;
+      border-width: 1px;
+      margin-bottom: 8px;
+    }
+
+    .sign-up{
+      font-size: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      height: 35px;
+      width: 250px;
+      background-color: rgb(60, 140, 206);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: opacity .15s;
+
+      margin-bottom: 40px;
+    }
+
+    .sign-up:hover{
+      opacity: .8;
+    }
+
+    .sign-up:active{
+      opacity: .4;
+    }
+
+    p{
+      font-size: 25px;
+      margin-bottom: 12px;
+    }
+
+    .uber{
+      font-size: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: rgb(226, 220, 212);
+      border: none;
+      display: block;
+      margin-top: 0;
+      margin-bottom: 6px;
+      width: 255px;
+    }
+
+    .request{
+      background-color: black;
+      color: white;
+      border: none;
+      height: 40px;
+      width: 125px;
+      margin-top: 20px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+
+    .request:hover{
+      background-color: gray;
+    }
+
+    .request:active{
+      background-color: rgb(160, 159, 159);
+    }
+
+    .schedule{
+      background-color: gainsboro;
+      color: black;
+      border: none;
+      height: 40px;
+      width: 125px;
+      margin-top: 20px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+
+    .schedule:hover{
+      background-color: rgb(168, 168, 168);
+    }
+
+    .schedule:active{
+      background-color: rgb(146, 144, 144);
+    }
+
+  </style>
+</head>
+<body>
+  <input class="name" type="text" placeholder="First Name">
+  <input class="name" type="text" placeholder="Last Name">
+  <input class="email" type="text" placeholder="Email">
+  <button class="sign-up">Sign Up</button>
+
+  <p>Request a ride now</p>
+  <input class="uber" type="text" placeholder="Enter Pickup Location">
+  <input class="uber" type="text" placeholder="Enter Destination">
+  <button class="request">Request Now</button>
+  <button class="schedule">Schedule for Later</button>
+</body>
+</html>

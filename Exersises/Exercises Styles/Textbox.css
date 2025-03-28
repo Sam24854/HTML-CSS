@@ -1,0 +1,112 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(78, 76, 76);
+}
+
+.rounded{
+  font-size: 16px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-right: 40px;
+}
+
+.shadow{
+  font-size: 16px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  width: 500px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .60);
+  margin-bottom: 40px;
+}
+
+.text{
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.email-bar{
+  border-color: black;
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 360px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+}
+
+.join{
+  background-color: rgb(18, 135, 202);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 18px;
+  width: 390px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: opacity .15s;
+  margin-bottom: 40px;
+}
+
+.join:hover{
+  opacity: .8;
+}
+
+.join:active{
+  opacity: .4;
+}
+
+.cat{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+}
+
+.twitter-box{
+  border: none;
+  font-size: 16px;
+  width: 250px;
+  vertical-align: middle;
+}
+
+.tweet-btn{
+  background-color: rgb(74, 171, 228);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 40px;
+  height: 40px;
+  width: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: opacity .15s;
+  vertical-align: middle;
+}
+
+.tweet-btn:hover{
+  opacity: .8;
+}
+
+.tweet-btn:active{
+  opacity: .4;
+}

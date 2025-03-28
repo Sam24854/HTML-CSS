@@ -1,0 +1,90 @@
+.font{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.deals{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0;
+
+}
+
+.sales{
+  font-family: Arial;
+  font-size: 21px;
+  color: red;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 50px;
+}
+
+.course{
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.skill{
+  font-family: Verdana;
+  color: rgb(68, 63, 63);
+  font-size: 23px;
+  margin-top: 2px;
+}
+
+.course-description{
+  font-family: Verdana;
+  font-size: 23px;
+  width: 450px;
+}
+
+.start-btn{
+  background-color: rgb(22, 148, 22);
+  color: white;
+  border: none;
+  font-family: Verdana;
+  font-size: 23px;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  transition: opacity .15s;
+}
+
+.start-btn:hover{
+  opacity: .8;
+}
+
+.start-btn:active{
+  opacity: .4;
+}
+
+.shop{
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.see-how{
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+}
+
+.learn{
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(10, 89, 192);
+  cursor: pointer;
+}
+
+.learn:hover{
+  text-decoration: underline;
+}
