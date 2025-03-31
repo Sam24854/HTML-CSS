@@ -87,6 +87,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .search-btn .tooltip,
